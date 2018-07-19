@@ -3,7 +3,7 @@ def vaild_move? (board, index)
   if (board[index] && position_taken?(board[index]))
     return true
   else
-    return false
+    return nil
   end
 end
 
