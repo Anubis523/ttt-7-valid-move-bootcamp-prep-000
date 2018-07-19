@@ -1,6 +1,7 @@
 # code your #valid_move? method here
 def vaild_move? (board, index)
-  if (board[index] != nil && position_taken?(board[index]) == false)
+  index = index.to_i 
+  if (index.betwee && position_taken?(board[index]) == false)
     return true
   else
     return nil
